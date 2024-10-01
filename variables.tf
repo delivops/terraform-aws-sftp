@@ -14,7 +14,6 @@ variable "sftp_users" {
     user_name       = string
     public_key      = string
   }))
-  sensitive = true
 }
 
 variable "restricted_home" {
