@@ -105,7 +105,7 @@ No modules.
 | <a name="input_identifier"></a> [identifier](#input\_identifier) | Identifier for this module's resources | `string` | n/a | yes |
 | <a name="input_restricted_home"></a> [restricted\_home](#input\_restricted\_home) | Whether to restrict users to their home directories | `bool` | `true` | no |
 | <a name="input_s3_bucket_name"></a> [s3\_bucket\_name](#input\_s3\_bucket\_name) | Name of the S3 bucket for SFTP storage | `string` | n/a | yes |
-| <a name="input_sftp_users"></a> [sftp\_users](#input\_sftp\_users) | List of SFTP users to create | <pre>list(object({<br>    user_name       = string<br>    public_key      = string<br>  }))</pre> | n/a | yes |
+| <a name="input_sftp_users"></a> [sftp\_users](#input\_sftp\_users) | List of SFTP users to create | <pre>list(object({<br/>    user_name       = string<br/>    public_key      = string<br/>  }))</pre> | n/a | yes |
 
 ## Outputs
 
